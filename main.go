@@ -16,3 +16,33 @@ type Items struct {
 	DropList           []string `json:"droplist"`
 	DropRate           []int    `json:"droprate"`
 }
+
+type Wall struct {
+	Material string
+	Hp       int
+}
+
+type ExternalWall struct {
+	Material string
+	Hp       int
+}
+
+type Door struct {
+	Material string
+	Hp       int
+}
+
+type ExternalDoor struct {
+	Material string
+	Hp       int
+}
+
+type Fondation struct {
+	Material string
+	Hp       int
+}
+
+type Celling struct {
+	Material string
+	Hp       int
+}
