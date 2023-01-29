@@ -46,3 +46,33 @@ type Celling struct {
 	Material string
 	Hp       int
 }
+
+type Trap struct {
+	Material string
+	Hp       int
+}
+
+type Workbench struct {
+	Material string
+	Hp       int
+}
+
+type Window struct {
+	Material string
+	Hp       int
+}
+
+type ToolCupbord struct {
+	Material string
+	Hp       int
+}
+
+type LadderHatch struct {
+	Material string
+	Hp       int
+}
+
+type Other struct {
+	Material string
+	Hp       int
+}
