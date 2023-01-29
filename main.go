@@ -17,62 +17,10 @@ type Items struct {
 	DropRate           []int    `json:"droprate"`
 }
 
-type Wall struct {
-	Material string
-	Hp       int
-}
-
-type ExternalWall struct {
-	Material string
-	Hp       int
-}
-
-type Door struct {
-	Material string
-	Hp       int
-}
-
-type ExternalDoor struct {
-	Material string
-	Hp       int
-}
-
-type Fondation struct {
-	Material string
-	Hp       int
-}
-
-type Celling struct {
-	Material string
-	Hp       int
-}
-
-type Trap struct {
-	Material string
-	Hp       int
-}
-
-type Workbench struct {
-	Material string
-	Hp       int
-}
-
-type Window struct {
-	Material string
-	Hp       int
-}
-
-type ToolCupbord struct {
-	Material string
-	Hp       int
-}
-
-type LadderHatch struct {
-	Material string
-	Hp       int
-}
-
-type Other struct {
-	Material string
-	Hp       int
+type Structures struct {
+	StructureName          string   `json:"structure_name"`
+	Hp                     int      `json:"hp"`
+	RecommandedStuffList   []string `json:"recommanded_stuff_list"`
+	RecommandedStuffAmount []string `json:"recommanded_stuff_amount"`
+	SulfurCost             int      `json:"sulfur_cost"`
 }
