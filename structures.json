@@ -1,0 +1,256 @@
+{
+    "Structure":[
+        {
+            "structure_name": "Wooden Wall",
+            "hp": 250,
+            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 0
+        },
+        {
+            "structure_name": "Stone Wall",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Metal Wall",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [4],
+            "sulfur_cost": 8800
+        },
+        {
+            "structure_name": "Armored Wall",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge","Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [7,30],
+            "sulfur_cost": 16150
+        },
+        {
+            "structure_name": "Wooden Door",
+            "hp": 200,
+            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 0
+        },     
+        {
+            "structure_name": "Wood Double Door",
+            "hp": 200,
+            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 0
+        },     
+        {
+            "structure_name": "Sheet Metal Door",
+            "hp": 250,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [63],
+            "sulfur_cost": 1575
+        },     
+        {
+            "structure_name": "Sheet Metal Double Door",
+            "hp": 250,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [63],
+            "sulfur_cost": 1575
+        },     
+        {
+            "structure_name": "Armored Door",
+            "hp": 1000,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },     
+        {
+            "structure_name": "Armored Double Door",
+            "hp": 1000,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [63],
+            "sulfur_cost": 440
+        },
+        {
+            "structure_name": "Garage Door",
+            "hp": 600,
+            "recommanded_stuff_list": ["Timed Explosive Charge","Rocket"],
+            "recommanded_stuff_amount": [1,1],
+            "sulfur_cost": 3600
+        },
+        {
+            "structure_name": "Ladder Hatch",
+            "hp": 250,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [63],
+            "sulfur_cost": 1575
+        },
+        {
+            "structure_name": "Metal Shop Front",
+            "hp": 750,
+            "recommanded_stuff_list": ["Timed Explosive Charge","Rocket"],
+            "recommanded_stuff_amount": [2,2],
+            "sulfur_cost": 7200
+        },
+        {
+            "structure_name": "High External Wooden Wall",
+            "hp": 500,
+            "recommanded_stuff_list": ["Incendiary Rocket"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 610
+        },
+        {
+            "structure_name": "High External Wooden Gate",
+            "hp": 500,
+            "recommanded_stuff_list": ["Incendiary Rocket"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 610
+        },
+        {
+            "structure_name": "High External Stone Wall",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "High External Stone Gate",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Auto Turret",
+            "hp": 1000,
+            "recommanded_stuff_list": ["High Velocity Rocket"],
+            "recommanded_stuff_amount": [3],
+            "sulfur_cost": 600
+        },
+        {
+            "structure_name": "Shotgun Trap",
+            "hp": 300,
+            "recommanded_stuff_list": ["High Velocity Rocket"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 200
+        },
+        {
+            "structure_name": "Flame Turret",
+            "hp": 300,
+            "recommanded_stuff_list": ["High Velocity Rocket"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 200
+        },
+        {
+            "structure_name": "SAM Site",
+            "hp": 1000,
+            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 0
+        },
+        {
+            "structure_name": "Workbench Level 1",
+            "hp": 500,
+            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 0
+        },
+        {
+            "structure_name": "Workbench Level 2",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 2200
+        },
+        {
+            "structure_name": "Workbench Level 3",
+            "hp": 750,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Vending Machine",
+            "hp": 1250,
+            "recommanded_stuff_list": ["Timed Explosive Charge","Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [2,60],
+            "sulfur_cost": 5900
+        },
+        {
+            "structure_name": "Metal Barricade",
+            "hp": 600,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [1],
+            "sulfur_cost": 2200
+        },
+        {
+            "structure_name": "Chainlink Fence",
+            "hp": 100,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [20],
+            "sulfur_cost": 500
+        },
+        {
+            "structure_name": "Large Furnace",
+            "hp": 1500,
+            "recommanded_stuff_list": ["Satchel Charge"],
+            "recommanded_stuff_amount": [3],
+            "sulfur_cost": 1440
+        },
+        {
+            "structure_name": "Metal Vertical embrasure",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Metal horizontal embrasure",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Reinforced Glass Window",
+            "hp": 500,
+            "recommanded_stuff_list": ["Timed Explosive Charge"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 4400
+        },
+        {
+            "structure_name": "Strengthened Glass Window",
+            "hp": 350,
+            "recommanded_stuff_list": ["Timed Explosive Charge","Rocket"],
+            "recommanded_stuff_amount": [1,1],
+            "sulfur_cost": 3600
+        },
+        {
+            "structure_name": "Floor grill",
+            "hp": 250,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [63],
+            "sulfur_cost": 1575
+        },
+        {
+            "structure_name": "Prison Cell Wall",
+            "hp": 300,
+            "recommanded_stuff_list": ["Rocket"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 2800
+        },
+        {
+            "structure_name": "Prison Cell Gate",
+            "hp": 300,
+            "recommanded_stuff_list": ["Rocket"],
+            "recommanded_stuff_amount": [2],
+            "sulfur_cost": 2800
+        },
+        {
+            "structure_name": "Tool Cupboard",
+            "hp": 100,
+            "recommanded_stuff_list": ["Explosive 5.56 Riffle Ammo"],
+            "recommanded_stuff_amount": [10],
+            "sulfur_cost": 250
+        }
+    ]
+}

@@ -1,4 +1,10 @@
-package calculator
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+)
 
 type Items struct {
 	DLC                bool     `json:"dlc"`
@@ -18,9 +24,18 @@ type Items struct {
 }
 
 type Structures struct {
-	StructureName          string   `json:"structure_name"`
-	Hp                     int      `json:"hp"`
-	RecommandedStuffList   []string `json:"recommanded_stuff_list"`
-	RecommandedStuffAmount []string `json:"recommanded_stuff_amount"`
-	SulfurCost             int      `json:"sulfur_cost"`
+	Structure []struct {
+		StructureName          string   `json:"structure_name"`
+		Hp                     int      `json:"hp"`
+		RecommandedStuffList   []string `json:"recommanded_stuff_list"`
+		RecommandedStuffAmount []int    `json:"recommanded_stuff_amount"`
+		SulfurCost             int      `json:"sulfur_cost"`
+	} `json:"Structure"`
+}
+
+func main() {
+	data, _ := ioutil.ReadFile("structures.json")
+	var structures Structures
+	json.Unmarshal([]byte(data), &structures)
+	fmt.Print(structures)
 }
