@@ -3,7 +3,7 @@
         {
             "structure_name": "Wooden Wall",
             "hp": 250,
-            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_list": ["Molotov Cocktail"],
             "recommanded_stuff_amount": [1],
             "sulfur_cost": 0
         },
@@ -31,14 +31,14 @@
         {
             "structure_name": "Wooden Door",
             "hp": 200,
-            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_list": ["Molotov Cocktail"],
             "recommanded_stuff_amount": [2],
             "sulfur_cost": 0
         },     
         {
             "structure_name": "Wood Double Door",
             "hp": 200,
-            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_list": ["Molotov Cocktail"],
             "recommanded_stuff_amount": [2],
             "sulfur_cost": 0
         },     
@@ -143,14 +143,14 @@
         {
             "structure_name": "SAM Site",
             "hp": 1000,
-            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_list": ["Molotov Cocktail"],
             "recommanded_stuff_amount": [2],
             "sulfur_cost": 0
         },
         {
             "structure_name": "Workbench Level 1",
             "hp": 500,
-            "recommanded_stuff_list": ["Molotov"],
+            "recommanded_stuff_list": ["Molotov Cocktail"],
             "recommanded_stuff_amount": [2],
             "sulfur_cost": 0
         },
